@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <nav class="h-[10vh] shadow-md fixed top-0 left-0 w-full bg-white z-20">
+      <div class="flex items-center justify-between mx-auto container p-6">
+        <a class="" href="/">
+          <h2 class="text-2xl tracking-widest">Company</h2>
+        </a>
+        <div class="sm:hidden text-2xl cursor-pointer">
+          <i class="fa-bars fa-solid"></i>
+        </div>
+        <div class="hidden sm:flex">Menu</div>
+      </div>
+    </nav>
+
+    <main class="w-full mt-[10vh] p-2 sm:p-0 shadow-md">
+      <div class="flex space-y-3 pb-5 flex-col">
+        <div
+          class="container mx-auto py-8 px-3 flex space-x-4 md:justify-around flex-col sm:flex-row"
+        >
+          <img
+            class="h-[50vh] w-auto object-contain bg-top-right"
+            src="./images/hero_image.png"
+            alt="hero_image"
+          />
+
+          <div
+            class="space-y-5 mt-8 sm:mt-0 flex flex-col items-center sm:items-start"
+          >
+            <p class="bg-green-500 p-2 rounded text-slate-50 shadow-sm">
+              50% off all products
+            </p>
+            <div class="space-y-3">
+              <h2
+                class="text-[3.75rem] leading-[4.6rem] text-center sm:text-start"
+              >
+                Enjoy Your Delicious Meal
+              </h2>
+              <p class="text-md text-black">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Quaerat, omnis.
+              </p>
+            </div>
+
+            <button
+              class="text-white px-4 py-2 rounded text-lg bg-amber-400 shadow-sm duration-300 hover:bg-amber-500 hover:scale-110"
+            >
+              Explore Now
+            </button>
+          </div>
+        </div>
+
+        <!-- info section -->
+        <div class="container mx-auto">
+          <div class="flex justify-around items-center gap-2 flex-wrap">
+            <div class="flex space-x-3 items-center">
+              <img src="./icons/discount.png" alt="discount" />
+
+              <div class="">
+                <h3 class="font-semibold">Discount Voucher</h3>
+                <p class="">Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+
+            <div class="flex space-x-3 items-center">
+              <img src="./icons/fresh.png" alt="fresh" />
+              <div>
+                <h3 class="font-semibold">Fresh Healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+
+            <div class="flex space-x-3 items-center">
+              <img src="./icons/delivery.png" alt="delivery" />
+              <div>
+                <h3 class="font-semibold">Fast Home Delivery</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <section class="mt-8 bg-white shadow-lg">
+      <div
+        class="container mx-auto space-y-7 pb-[10vh] flex flex-col items-center justify-center"
+      >
+        <button class="bg-green-500 text-slate-100 py-2 px-4 rounded shadow-md">
+          Our Menu
+        </button>
+
+        <h2 class="text-[2.5rem]">Explore Our Menu</h2>
+
+        <div class="flex items-center justify-evenly gap-6 flex-wrap w-full">
+          <img
+            class="h-[300px] w-[300px] object-fit rounded-full duration-200 hover:scale-110"
+            src="./images/grid_image1.png"
+            alt="foodImage"
+          />
+          <img
+            class="h-[300px] w-[300px] object-fit rounded-full duration-200 hover:scale-110"
+            src="./images/grid_image2.png"
+            alt="foodImage"
+          />
+          <img
+            class="h-[300px] w-[300px] object-fit rounded-full duration-200 hover:scale-110"
+            src="./images/grid_image3.png"
+            alt="foodImage"
+          />
+          <img
+            class="h-[300px] w-[300px] object-fit rounded-full duration-200 hover:scale-110"
+            src="./images/grid_image4.png"
+            alt="foodImage"
+          />
+          <img
+            class="h-[300px] w-[300px] object-fit rounded-full duration-200 hover:scale-110"
+            src="./images/grid_image5.png"
+            alt="foodImage"
+          />
+          <img
+            class="h-[300px] w-[300px] object-fit rounded-full duration-200 hover:scale-110"
+            src="./images/grid_image6.png"
+            alt="foodImage"
+          />
+          <img
+            class="h-[300px] w-[300px] object-fit rounded-full duration-200 hover:scale-110"
+            src="./images/grid_image7.png"
+            alt="foodImage"
+          />
+        </div>
+      </div>
+    </section>
+
+    <footer class="p-5  mt-10 shadow-md w-full bg-[#FFF0DB]">
+      <div class="container mx-auto flex space-y-5 sm:space-x-5 items-center justify-around flex-wrap">
+
+        <h2 class="text-[4rem] font-mono text-green-700 ">Company</h2>
+
+        <div class="flex justify-between sm:space-x-10 flex-wrap ">
+
+          <div class="space-y-1">
+            <h3 class="text-[1.25rem]">Main Link</h3>
+            <div class="flex flex-col text-sm text-slate-800">
+              <a href="#"> Order Tracking</a>
+              <a href="#"> New Order</a>
+              <a href="#"> Contact Us</a>
+              <a href="#"> News & Blogs</a>
+            </div>
+          </div>
+
+          <div class="space-y-2">
+            <h3 class="text-[1.25rem]">Support</h3>
+            <div class="flex flex-col text-sm text-slate-800">
+              <a href="#"> About Us</a>
+              <a href="#"> Privacy Policy</a>
+              <a href="#"> Terms & Conditions</a>
+            </div>
+          </div>
+
+          <div class="space-y-2 mt-6 sm:mt-0 text-center sm:text-start sm:w-min w-full">
+            <h3 class="text-[1.25rem]">Join Our NewsLetter</h3>
+            <input 
+            class="text-lg rounded-md shadow-sm focus:outline-none text-center sm:text-start py-2 px-4"
+            type="email" 
+            placeholder="Enter your Email Address" />
+            <h3>Follow Us</h3>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
